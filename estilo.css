@@ -1,0 +1,188 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #888;
+    background-image: url('hormigon.jpg'); 
+    background-size: cover;
+    background-position: center;
+    
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+header {
+    font-family: Pacifico;
+    background-color: #7AB4AD;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Agora, colocando um degradê */
+h1 {
+  /* Primeiro passo: definir um degradê como fundo */
+  background-image: linear-gradient(to bottom, #7ab4ad, rgb(15, 64, 104), rgb(13, 35, 83));
+  
+  /* Segundo passo: apagar do fundo tudo que não estiver imediatamente atrás de texto */
+  background-clip: text;
+  -webkit-background-clip: text; /* Alguns navegadores precisam do prefixo */
+
+  /* Terceiro passo: apagar o texto, deixando apenas o fundo atrás dele */
+  -webkit-text-fill-color: transparent;
+
+  /* Cor que contraste com o degradê, caso o navegador não suporte `background-clip: text` */
+  color: black;
+  
+}
+img {
+    width: 50px;
+    height: auto;
+    margin: 20px 0;
+}
+
+.pagi {
+    width: 500px;
+    height: auto;
+    margin: 45px;
+    text-align: center;
+}
+
+.form {
+    text-align: center;
+    width: 250px;
+    height: auto;
+    margin: 5px;
+}
+
+    .tcc {
+    text-align: center;
+    width: 350px;
+    height: auto;
+}
+  .pis {
+    text-align: center;
+    width: 425px;
+    height: auto;
+}
+
+
+
+ .fil {
+    text-align: center;
+    width: 350px;
+    height: auto;
+    margin: 5px;
+}
+
+
+
+.content {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer{
+  color:#000;
+  border:#000 solid 1px;
+  background-color:  #7AB4AD;
+  background-opacity: 0.9; 
+}
+
+footer p{
+  display:inline-block;
+  width:316px;
+  text-align:center;
+}
+
+.principal {
+  
+  background: linear-gradient(to right, red, blue);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#menu{
+   float: center;
+   margin-top:0px;
+   margin-left: 0px;
+   width:453px;
+   text-align: center; 
+}
+
+#menu ul{
+  float:center;
+   list-style:none;
+   padding:0px;
+   margin:0px;
+   background:linear-gradient(to bottom, #FFF, #7AB4AD); 
+}
+
+#menu li{
+  float:center;
+
+   height:57px;
+   display:table-cell;
+   text-align:center;
+   vertical-align:middle;
+   width:150px;
+   border-right: 1px solid #062;
+}
+
+#menu ul li a{
+  float:center;
+
+   text-decoration:none;
+   font-size:25px;
+   color:#000;
+}
+
+#fim {
+   color: #fff;
+}
+
+.botao {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: right;
+}
+
+.botao:hover {
+    background: #555;
+    text-align: right;
+}
+
+details{
+  text-align: left;
+  margin-top:30px;
+  cursor:pointer;
+ 
+}
+
+details p {
+  font-size:21px;
+}
+
+summary{
+  height:30px;	
+  background:linear-gradient(to bottom, #fff, #7AB4AD);
+  font: 20px Arial;
+  font-weight:bold;
+  padding:10px 0px 0px 10px;
+}
+
+.fixFloat{
+   clear:both;
+}
+
+.texto{
+text-align: justify;
+font-size: 21px;
+}
+
+
